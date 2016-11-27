@@ -10,6 +10,7 @@ router.get("/", function(req, res, next) {
 
 router.get("/:id", function(req, res, next) {
   res.send('Hello Student No: ' + req.params.id);
+  
 });
 
 router.get('/all', function(req, res, next) {
